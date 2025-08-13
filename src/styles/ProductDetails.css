@@ -1,0 +1,6 @@
+.productDetailsPage {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 20px;
+}

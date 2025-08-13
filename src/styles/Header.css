@@ -1,0 +1,50 @@
+/* Header.css */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 10px 20px;
+}
+
+/* Left side */
+.left {
+  flex: 1;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* Right side */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Icons */
+.icon {
+  width: 40px;
+  cursor: pointer;
+}
+
+/* Cart section with icon and text */
+.cart-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cart-count {
+  font-weight: bold;
+}
