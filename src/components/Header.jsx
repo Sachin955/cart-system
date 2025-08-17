@@ -49,6 +49,7 @@ const Header = () => {
           alt="wishlist-image"
           onClick={gotoWishlist}
           className="icon"
+          title="wishlist"
         />
         <div className="cart-section">
           <img
@@ -56,6 +57,7 @@ const Header = () => {
             alt="cart"
             onClick={gotoCart}
             className="icon"
+            title="cart"
           />
           <span className="cart-count">{itemsLength}</span>
         </div>
